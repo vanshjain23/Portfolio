@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vansh Jain ‒ Finance Professional</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+  <!-- Navbar -->
+  <nav class="container mx-auto p-6 flex justify-between items-center">
+    <div class="text-2xl font-bold text-blue-700">Vansh Jain</div>
+    <div>
+      <a href="#about" class="ml-6 text-gray-700 hover:text-blue-700">About</a>
+      <a href="#projects" class="ml-6 text-gray-700 hover:text-blue-700">Projects</a>
+      <a href="#contact" class="ml-6 text-gray-700 hover:text-blue-700">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="container mx-auto flex flex-col-reverse md:flex-row items-center p-6 md:p-12">
+    <div class="md:w-1/2 mt-8 md:mt-0">
+      <h1 class="text-4xl md:text-5xl font-extrabold">Hi, I'm Vansh Jain</h1>
+      <p class="mt-4 text-xl text-gray-700">Finance Professional · Associate Business Consultant</p>
+      <p class="mt-2 text-lg text-gray-600">Specialized in Financial Modeling, Accounting, Economy, and Workday Adaptive Planning.</p>
+      <div class="mt-6">
+        <a href="#projects" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">View Work</a>
+        <a href="#contact" class="ml-4 px-6 py-3 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50">Contact Me</a>
+      </div>
+    </div>
+    <div class="md:w-1/2 flex justify-center">
+      <img src="your-photo.jpg" alt="Vansh Jain" class="w-64 h-64 rounded-full object-cover shadow-lg"/>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container mx-auto p-6 md:p-12">
+    <h2 class="text-3xl font-semibold">About Me</h2>
+    <p class="mt-4 text-lg text-gray-700">
+      I am a finance professional and MBA student specializing in Finance. Currently working as an Associate Business Consultant, I focus on financial analysis, modeling, accounting, and Workday Adaptive Planning. 
+      I enjoy simplifying complex financial concepts and building scalable solutions for business planning.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container mx-auto p-6 md:p-12 bg-white rounded-lg shadow-md">
+    <h2 class="text-3xl font-semibold">Selected Projects</h2>
+    <div class="mt-6 grid gap-8 md:grid-cols-2">
+      <div class="p-6 border rounded-lg hover:shadow-lg">
+        <h3 class="text-2xl font-bold">Financial Modeling for SME IPOs</h3>
+        <p class="mt-2 text-gray-600">Built valuation models and forecasts for SMEs, analyzing capital structures and investor returns.</p>
+        <p class="mt-1 text-sm text-gray-500">Tools: Excel · Financial Modeling</p>
+      </div>
+      <div class="p-6 border rounded-lg hover:shadow-lg">
+        <h3 class="text-2xl font-bold">Workday Adaptive Planning</h3>
+        <p class="mt-2 text-gray-600">Designed multi-level P&L dashboards, GMV forecasting models, and planning cubes for Tata Digital.</p>
+        <p class="mt-1 text-sm text-gray-500">Tools: Workday Adaptive · Cube Sheets</p>
+      </div>
+      <div class="p-6 border rounded-lg hover:shadow-lg">
+        <h3 class="text-2xl font-bold">Economic & Market Research</h3>
+        <p class="mt-2 text-gray-600">Analyzed macroeconomic trends like FII inflows, equity mutual funds, and India’s GDP contributions for blogs and reports.</p>
+        <p class="mt-1 text-sm text-gray-500">Tools: Tableau · Excel · Research</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto p-6 md:p-12 mt-12">
+    <h2 class="text-3xl font-semibold">Get In Touch</h2>
+    <p class="mt-4 text-lg text-gray-700">📧 Email: 
+      <a href="mailto:vanshjain2302@gmail.com" class="text-blue-600 underline">vanshjain2302@gmail.com</a>
+    </p>
+    <p class="mt-2 text-lg text-gray-700">🔗 LinkedIn: 
+      <a href="https://www.linkedin.com/in/vanshjain23/" class="text-blue-600 underline">linkedin.com/in/vanshjain23/</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 p-6 mt-12 text-center text-sm text-gray-500">
+    © 2025 Vansh Jain · Built with TailwindCSS · Deployed on Vercel
+  </footer>
+
+</body>
+</html>
