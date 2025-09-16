@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vansh Jain - Finance Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="your-photo.jpg" alt="Vansh Jain" class="profile-photo">
+      <h1>Vansh Jain</h1>
+      <p>Associate Business Consultant | Finance Enthusiast</p>
+      <a href="mailto:vanshjain2302@gmail.com">📧 Email</a> | 
+      <a href="https://www.linkedin.com/in/vanshjain23/" target="_blank">🔗 LinkedIn</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I am a finance professional with expertise in 
+        <b>Financial Modeling</b>, <b>Accounting</b>, <b>Economy</b>, 
+        and <b>Workday Adaptive Planning</b>. Currently working as an 
+        <b>Associate Business Consultant</b>.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>Financial Modeling</li>
+        <li>Accounting</li>
+        <li>Finance</li>
+        <li>Economy</li>
+        <li>Workday Adaptive Planning</li>
+        <li>Business Consulting</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:vanshjain2302@gmail.com">vanshjain2302@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/vanshjain23/" target="_blank">linkedin.com/in/vanshjain23</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Vansh Jain | Built with ❤️</p>
+    </div>
+  </footer>
+</body>
+</html>
